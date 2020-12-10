@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/fuoripista/static/css/main.9afcb023.chunk.css",
+    "main.js": "/fuoripista/static/js/main.a5222746.chunk.js",
+    "main.js.map": "/fuoripista/static/js/main.a5222746.chunk.js.map",
+    "runtime-main.js": "/fuoripista/static/js/runtime-main.0c3245d8.js",
+    "runtime-main.js.map": "/fuoripista/static/js/runtime-main.0c3245d8.js.map",
+    "static/css/2.ed8d7ab5.chunk.css": "/fuoripista/static/css/2.ed8d7ab5.chunk.css",
+    "static/js/2.6f1b68bc.chunk.js": "/fuoripista/static/js/2.6f1b68bc.chunk.js",
+    "static/js/2.6f1b68bc.chunk.js.map": "/fuoripista/static/js/2.6f1b68bc.chunk.js.map",
+    "static/js/3.0cc71918.chunk.js": "/fuoripista/static/js/3.0cc71918.chunk.js",
+    "static/js/3.0cc71918.chunk.js.map": "/fuoripista/static/js/3.0cc71918.chunk.js.map",
+    "index.html": "/fuoripista/index.html",
+    "static/css/2.ed8d7ab5.chunk.css.map": "/fuoripista/static/css/2.ed8d7ab5.chunk.css.map",
+    "static/css/main.9afcb023.chunk.css.map": "/fuoripista/static/css/main.9afcb023.chunk.css.map",
+    "static/js/2.6f1b68bc.chunk.js.LICENSE.txt": "/fuoripista/static/js/2.6f1b68bc.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/fuoripista/static/media/Hijrnotes.faaae37b.woff2",
+    "static/media/down.13e983af.svg": "/fuoripista/static/media/down.13e983af.svg",
+    "static/media/fb.58a8405f.svg": "/fuoripista/static/media/fb.58a8405f.svg",
+    "static/media/first-bg-land.6ec311c5.jpg": "/fuoripista/static/media/first-bg-land.6ec311c5.jpg",
+    "static/media/fourth-bg-land.7af22d7a.jpg": "/fuoripista/static/media/fourth-bg-land.7af22d7a.jpg",
+    "static/media/instagram.d2308550.svg": "/fuoripista/static/media/instagram.d2308550.svg",
+    "static/media/logo.a4d906ec.svg": "/fuoripista/static/media/logo.a4d906ec.svg",
+    "static/media/second-bg-land.a5186a6b.jpg": "/fuoripista/static/media/second-bg-land.a5186a6b.jpg",
+    "static/media/slick-theme.css": "/fuoripista/static/media/slick.c94f7671.ttf",
+    "static/media/slide-1.8c030967.jpg": "/fuoripista/static/media/slide-1.8c030967.jpg",
+    "static/media/slide-2.ad315265.png": "/fuoripista/static/media/slide-2.ad315265.png",
+    "static/media/slide-3.11dcd506.jpg": "/fuoripista/static/media/slide-3.11dcd506.jpg",
+    "static/media/third-bg-land.568555d9.jpg": "/fuoripista/static/media/third-bg-land.568555d9.jpg",
+    "static/media/underline.53601853.svg": "/fuoripista/static/media/underline.53601853.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c3245d8.js",
+    "static/css/2.ed8d7ab5.chunk.css",
+    "static/js/2.6f1b68bc.chunk.js",
+    "static/css/main.9afcb023.chunk.css",
+    "static/js/main.a5222746.chunk.js"
+  ]
+}
