@@ -1,0 +1,18 @@
+.logo-container {
+  display: flex;
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  left: 0;
+}
+
+.logo-container img {
+  filter: invert(1);
+  width: 10vw;
+  min-width: 110px;
+}
+
+.black-logo img{
+  filter: none !important;
+}

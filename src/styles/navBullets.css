@@ -1,0 +1,35 @@
+.nav-bullets-container {
+  position: fixed;
+  bottom: 0;
+  padding: 3rem;
+}
+
+.nav-bullets {
+  display: flex;
+}
+
+.nav-bullets .nav-bullet {
+  background-color: rgb(107, 107, 107);
+  height: 4px;
+  width: 4px;
+  border-radius: 10px;
+  display: inline-flex;
+  margin: 8px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.nav-bullets .active-bullet {
+  transform: scale(1.8);
+  background-color: var(--main-color) !important;
+}
+
+@media (max-width: 768px) {
+  .nav-bullets {
+    flex-direction: column;
+  }
+
+  .nav-bullets-container{
+    padding: 2rem;
+  }
+}

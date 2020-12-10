@@ -1,0 +1,71 @@
+@keyframes reveal {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.big-text {
+  font-size: 58px;
+  color: #ffffff;
+}
+
+.texts-container a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.normal-text {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.paragraph-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.paragraph-container span {
+  display: block;
+  transform: translateY(100px);
+}
+
+.paragraph-visible span {
+  animation: reveal 1.3s;
+  animation-fill-mode: forwards;
+}
+
+.paragraph-container em {
+  display: inline-block;
+  font-family: "Hijrnotes";
+  font-weight: 400;
+  font-style: normal;
+  color: #c39d42;
+  font-size: 170%;
+  vertical-align: middle;
+  position: relative;
+  top: -0.2em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+.small-text {
+  color: #ffffff;
+  margin: 3rem;
+}
+
+.texts-container {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .big-text {
+    font-size: 28px;
+  }
+
+  .normal-text {
+    font-size: 18px;
+  }
+}

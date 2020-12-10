@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Hijrnotes";
+  src: url("../fonts/Hijrnotes.woff") format("woff"),
+    url("../fonts/Hijrnotes.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Domaine Sans Display";
+  src: url("../fonts/DomaineSansDisplay-Light.woff") format("woff"),
+    url("../fonts/DomaineSansDisplay-Light.woff2") format("woff2");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+  font-family: "Domaine Sans Display";
+}
+
+.first-section-bg,
+.second-section-bg,
+.third-section-bg,
+.fourth-section-bg {
+  opacity: 0.8;
+}
+
+/* Variables */
+
+:root {
+  --main-color: #c29d42;
+}
+
+/* Cursor Follower*/
+.container {
+  min-height: 100vh;
+}
+
+.cursor {
+  position: fixed;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+}
+
+.cursors .cursor:nth-child(1) {
+  background-color: transparent;
+  z-index: 100002;
+}
+
+.cursors .cursor:nth-child(2) {
+  background-color: transparent;
+  z-index: 100001;
+  height: 24px;
+  width: 24px;
+  border: 1px solid var(--main-color);
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
